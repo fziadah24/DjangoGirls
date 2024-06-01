@@ -6,10 +6,14 @@
     margin: 0%;
     padding: 0%;
 }
+body{
+    background-color: #96B0FF;
+}
 img {
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
+    margin-left: 50%;
+    height: 200px;
+    z-index: 1;
+
 }
 button{
     width: 200px;
@@ -23,7 +27,7 @@ button{
     cursor: pointer;
     font-weight: 600;
     left: 41.5%;
-    top: 60%;
+    top: 69%;
     background-color: #8F5BBD;
     font-family: 'Ruler Modern';
     
@@ -44,3 +48,126 @@ a:hover{
     text-decoration: none;
     transition: 1s;
 }
+nav {
+    background-color: #E6C8FF;
+    padding: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-family: 'Ruler Modern';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8F5BBD;
+    font-weight: bold;
+}
+h1{
+    z-index: 3;
+    background-color: none;
+    height: 60%;
+    position: absolute;
+    font-family: 'Ruler Modern';
+    color: #8F5BBD;
+    margin-left: 26.5%;
+    margin-top: 20%;
+
+}
+#main{
+    position: relative;
+    z-index: 2;
+}
+
+.earlymorning img{
+position: static;
+z-index: 1;
+margin-right: 50px;
+margin-bottom: 300px;
+height: 500px;
+width: auto;
+}
+
+.earlymorning p{
+float: left;
+position: absolute;
+z-index: 1;
+margin-left: 50px;
+align-self: flex-end;
+font-family: 'ruler modern';
+color: #8F5BBD;
+}
+
+.background{
+    object-fit: cover; 
+    position: relative; 
+    height: 100%;
+    width: 100%;
+    z-index: -1; 
+    margin-left: 0;
+    background-attachment: scroll;
+}
+.text1 {
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+    position: absolute;
+    font-family: 'Ruler Modern';
+    color: #8F5BBD;
+    font-size: 100px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ }
+ 
+ .wrapper{
+   position: absolute;
+   width: 100%;
+ }
+ 
+ .moving-helicopter{
+   position: absolute;
+   width: 200px;
+   z-index: 10;
+   left: 18%;
+   animation: moveBus 22s ease-in-out forwards;
+ }
+ 
+ .moving-helicopter2{
+   position: absolute;
+   width: 200px;
+   z-index: 10;
+   left: -10%;
+   animation: moveBus2 2s ease-in-out 2s forwards;
+ }
+ 
+ @keyframes moveBus{
+   0% {
+   left: -16%;
+   }
+   100% {
+   left: 100%;
+   }
+ }
+ 
+ @keyframes moveBus2{
+   0% {
+   left: -10%;
+   }
+   100% {
+   left: 18%;
+   }
+ }
