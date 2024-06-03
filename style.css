@@ -9,12 +9,12 @@
 body{
     background-color: #96B0FF;
 }
-img {
-    margin-left: 50%;
-    height: 200px;
-    z-index: 1;
 
-}
+
+
+
+
+
 button{
     width: 200px;
     padding: 15px;
@@ -48,6 +48,13 @@ a:hover{
     text-decoration: none;
     transition: 1s;
 }
+
+
+
+
+
+
+
 nav {
     background-color: #E6C8FF;
     padding: 20px;
@@ -72,6 +79,12 @@ nav a {
     color: #8F5BBD;
     font-weight: bold;
 }
+
+
+
+
+
+
 h1{
     z-index: 3;
     background-color: none;
@@ -81,52 +94,57 @@ h1{
     color: #8F5BBD;
     margin-left: 26.5%;
     margin-top: 20%;
-
-}
-#main{
-    position: relative;
-    z-index: 2;
 }
 
 .earlymorning img{
-position: static;
-z-index: 1;
-margin-right: 50px;
-margin-bottom: 300px;
-height: 500px;
-width: auto;
+    float: left;
+    position: absolute;
+    z-index: 4;
+    height: 30%;
+    margin-left: 50px;
+    top: 80%;
+    align-self: flex-end;
+    margin-top: 10%;
+    overflow: auto;
 }
+
 
 .earlymorning p{
 float: left;
 position: absolute;
 z-index: 1;
-margin-left: 50px;
+margin-left: 20%;
 align-self: flex-end;
 font-family: 'ruler modern';
 color: #8F5BBD;
 }
 
-.background{
-    object-fit: cover; 
-    position: relative; 
-    height: 100%;
-    width: 100%;
+.background img{
+    position: static; 
     z-index: -1; 
     margin-left: 0;
-    background-attachment: scroll;
+    overflow: auto;
+    background-image: "media/1.png";
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 .text1 {
 position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-    position: absolute;
-    font-family: 'Ruler Modern';
-    color: #8F5BBD;
-    font-size: 100px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 3;
+font-family: 'Ruler Modern';
+color: #8F5BBD;
+font-size: 100px;
 }
+
+
+
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -140,7 +158,7 @@ html, body {
  
  .moving-helicopter{
    position: absolute;
-   width: 200px;
+   height: 50px;
    z-index: 10;
    left: 18%;
    animation: moveBus 22s ease-in-out forwards;
@@ -148,7 +166,7 @@ html, body {
  
  .moving-helicopter2{
    position: absolute;
-   width: 200px;
+   height: 50px;
    z-index: 10;
    left: -10%;
    animation: moveBus2 2s ease-in-out 2s forwards;
