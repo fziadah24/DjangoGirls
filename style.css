@@ -604,7 +604,7 @@ html, body {
    height: 50px;
    z-index: 10;
    left: 18%;
-   animation: moveBus 22s ease-in-out forwards;
+   animation: moveBus 15s ease-in-out forwards;
  }
  
  .moving-helicopter2{
