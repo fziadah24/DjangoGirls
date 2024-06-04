@@ -2,18 +2,25 @@
     font-family: 'Ruler Modern';
     src: url(font/rulermodern.woff) format('woff');
   }
+  @font-face {
+    font-family: 'Chatlong';
+    src: url(font/Chatlong.woff) format('woff');
+  }
 *{
     margin: 0%;
     padding: 0%;
 }
 body{
     background-color: #96B0FF;
+    padding-bottom: 1000%;
 }
 
 
 
 
-
+.main{
+    padding-bottom: 402%;
+}
 
 button{
     width: 200px;
@@ -29,9 +36,9 @@ button{
     left: 41.5%;
     top: 69%;
     background-color: #8F5BBD;
-    font-family: 'Ruler Modern';
-    
+    font-family: 'Ruler Modern'; 
 }
+
 button:hover{
     background: #E6C8FF;
     transition: 0.5s;
@@ -48,6 +55,40 @@ a:hover{
     text-decoration: none;
     transition: 1s;
 }
+
+.day2 button{
+    margin-top: 415%;
+    width: 200px;
+    padding: 15px;
+    position: absolute;
+    border-radius: 25px;
+    color: #E6C8FF;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #8F5BBD;
+    font-family: 'Ruler Modern'; 
+}
+
+button:hover{
+    background: #E6C8FF;
+    transition: 0.5s;
+}
+button:hover{
+    color: #8F5BBD;
+}
+a:link{
+    color: #8F5BBD;
+    text-decoration: none;
+}
+a:hover{
+    color: #8F5BBD;
+    text-decoration: none;
+    transition: 1s;
+}
+
+
 
 
 
@@ -85,27 +126,29 @@ nav a {
 
 
 
+a{
+    font-weight: 500;
+}
 h1{
-    z-index: 3;
-    background-color: none;
-    height: 60%;
-    position: absolute;
-    font-family: 'Ruler Modern';
-    color: #8F5BBD;
-    margin-left: 26.5%;
-    margin-top: 20%;
+z-index: 3;
+background-color: none;
+height: 60%;
+position: absolute;
+font-family: 'Ruler Modern';
+color: #8F5BBD;
+margin-left: 26.5%;
+margin-top: 20%;
 }
 
 .earlymorning img{
-    float: left;
-    position: absolute;
-    z-index: 4;
-    height: 30%;
-    margin-left: 50px;
-    top: 80%;
-    align-self: flex-end;
-    margin-top: 10%;
-    overflow: auto;
+float: left;
+position: absolute;
+z-index: 4;
+height: 50%;
+margin-left: 7%;
+top: 80%;
+align-self: flex-end;
+margin-top: 10%;
 }
 
 
@@ -113,21 +156,28 @@ h1{
 float: left;
 position: absolute;
 z-index: 1;
-margin-left: 20%;
+margin-left: 60%;
+margin-right: 7%;
+margin-top: 49%;
 align-self: flex-end;
-font-family: 'ruler modern';
-color: #8F5BBD;
+font-family: 'chatlong';
+color: #ffffff;
+text-align: center;
+font-size: 140%;
+font-stretch: expanded;
+line-height: 140%;
 }
 
 .background img{
-    position: static; 
-    z-index: -1; 
-    margin-left: 0;
-    overflow: auto;
-    background-image: "media/1.png";
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+position: static; 
+z-index: -1; 
+height: 100%;
+width: 100%;
+margin-left: 0;
+background-image: "media/1.png";
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 }
 
 .text1 {
@@ -141,6 +191,399 @@ color: #8F5BBD;
 font-size: 100px;
 }
 
+.olive1 img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 23%;
+    margin-left: 45%;
+    top: 80%;
+    align-self: flex-end;
+    margin-top: 10%;
+    }
+.blu1 img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 23%;
+    margin-left: 45%;
+    top: 107%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+
+.druryplaza img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 70%;
+    margin-left: 64%;
+    top: 150%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.badges img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 30%;
+    margin-left: 40%;
+    top: 150%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.day1OB img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 38%;
+    margin-left: 40%;
+    top: 182%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.druryplaza p{
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: 7%;
+    margin-right: 65%;
+    margin-top: 90%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+    }
+
+    .edusum img{
+        float: left;
+        position: absolute;
+        z-index: 4;
+        height: 55%;
+        margin-left: 7%;
+        top: 240%;
+        align-self: flex-end;
+        margin-top: 10%;
+        }
+
+        .allES img{
+            float: right;
+            position: absolute;
+            z-index: 4;
+            height: 23%;
+            margin-left: 44%;
+            top: 240%;
+            align-self: flex-end;
+            margin-top: 10%;
+        }
+        .walkES img{
+            float: right;
+            position: absolute;
+            z-index: 4;
+            height: 30%;
+            margin-left: 44%;
+            top: 265%;
+            align-self: flex-end;
+            margin-top: 10%;
+        }
+        .edusum p{
+            float: left;
+            position: absolute;
+            z-index: 1;
+            margin-left: 67%;
+            margin-right: 7%;
+            margin-top: 137%;
+            align-self: flex-end;
+            font-family: 'chatlong';
+            color: #ffffff;
+            text-align: center;
+            font-size: 140%;
+            font-stretch: expanded;
+            line-height: 140%;
+            }
+
+            .board img{
+                float: right;
+                position: absolute;
+                z-index: 4;
+                height: 70%;
+                margin-left: 64%;
+                top: 310%;
+                align-self: flex-end;
+                margin-top: 10%;
+            }
+            .posterOB img{
+                float: right;
+                position: absolute;
+                z-index: 4;
+                height: 32%;
+                margin-left: 44.4%;
+                top: 310%;
+                align-self: flex-end;
+                margin-top: 10%;
+            }
+            .poster img{
+                float: right;
+                position: absolute;
+                z-index: 4;
+                height: 36%;
+                margin-left: 43.5%;
+                top: 344%;
+                align-self: flex-end;
+                margin-top: 10%;
+            }
+.poster p{
+    float: left;
+    position: absolute;
+    z-index: 1;
+    margin-left: 7%;
+    margin-right: 64%;
+    margin-top: 180%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+}
+.guido img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 80%;
+    margin-left: 4%;
+    top: 395%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.guido p{
+            float: right;
+            position: absolute;
+            z-index: 2;
+            margin-left: 67%;
+            margin-right: 7%;
+            top: 350%;
+            align-self: flex-end;
+            font-family: 'chatlong';
+            color: #ffffff;
+            text-align: center;
+            font-size: 140%;
+            font-stretch: expanded;
+            line-height: 140%;
+}
+.lunch img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 70%;
+    margin-left: 64%;
+    top: 490%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.jeffLT img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 32%;
+    margin-left: 39%;
+    top: 490%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.circle img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 32%;
+    margin-left: 39%;
+    top: 527%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.circle p{
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 7%;
+    margin-right: 67%;
+    top: 430%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+}
+.walking img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 65%;
+    margin-left: 6%;
+    top: 578%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.popcorn img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 30%;
+    margin-left: 34%;
+    top: 578%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.pool img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 32%;
+    margin-left: 34%;
+    top: 610%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.pool p{
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 63%;
+    margin-right: 9%;
+    top: 514%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+}
+.yellow img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 40%;
+    margin-left: 4%;
+    top: 13%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.blue img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 40%;
+    margin-left: 74%;
+    top: 13%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.dinner img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 70%;
+    margin-left: 64%;
+    top: 655%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+
+.walktarget img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 33%;
+    margin-left: 45%;
+    top: 655%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.target img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 34%;
+    margin-left: 45%;
+    top: 691%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.target p{
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 9%;
+    margin-right: 64%;
+    top: 589%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+}
+.terrace img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 60%;
+    margin-left: 6%;
+    top: 740%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.sunset img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 29%;
+    margin-left: 42%;
+    top: 740%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.blusun img{
+    float: right;
+    position: absolute;
+    z-index: 4;
+    height: 29%;
+    margin-left: 42%;
+    top: 771%;
+    align-self: flex-end;
+    margin-top: 10%;
+}
+.blusun p{
+    float: right;
+    position: absolute;
+    z-index: 2;
+    margin-left: 67%;
+    margin-bottom: 800%;
+    margin-right: 9%;
+    top: 679%;
+    align-self: flex-end;
+    font-family: 'chatlong';
+    color: #ffffff;
+    text-align: center;
+    font-size: 140%;
+    font-stretch: expanded;
+    line-height: 140%;
+}
+.border-radius img{
+    border-radius: 5%;
+}
+
+
+
+
 
 
 
@@ -148,7 +591,7 @@ font-size: 100px;
 html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
  }
  
  .wrapper{
@@ -188,4 +631,10 @@ html, body {
    100% {
    left: 18%;
    }
+ }
+
+
+ #second_page{
+ width: 100vw;
+ height: 100vh;
  }
