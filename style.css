@@ -161,7 +161,6 @@ a{
 }
 h1{
 z-index: 3;
-background-color: none;
 height: 60%;
 position: absolute;
 font-family: 'Ruler Modern';
@@ -204,7 +203,7 @@ z-index: -1;
 height: 100%;
 width: 100%;
 margin-left: 0;
-background-image: "media/1.png";
+background-image: url(media/1.png);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
