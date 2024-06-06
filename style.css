@@ -46,11 +46,11 @@ button:hover{
 button:hover{
     color: #8F5BBD;
 }
-a:link{
+button:link{
     color: #8F5BBD;
     text-decoration: none;
 }
-a:hover{
+button:hover{
     color: #8F5BBD;
     text-decoration: none;
     transition: 1s;
