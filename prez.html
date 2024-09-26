@@ -10,7 +10,7 @@
     <nav>
         <ul>
             <li><a href="index.html">HOME</a></li>
-            <li><a href="one.html">DAY 1</a></li>
+            <li><a href="prez.html">PRESENTATION</a></li>
         </ul>
     </nav>
 
@@ -37,57 +37,51 @@
             width: 100%;
             height: 100%;
             display: none;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        section img {
-            max-width: 90%;
-            max-height: 90%;
+            background-size: cover;
+            background-position: center;
         }
         .active {
-            display: flex;
+            display: block;
         }
         .controls {
             position: absolute;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
+            top: 50%;
+            width: 100%;
             display: flex;
-            justify-content: center; /* Center buttons inside the controls div */
-            align-items: center; /* Vertical alignment */
-            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateY(-50%);
+            padding: 0 20px; /* Added padding for space on the sides */
         }
         button {
-            padding: 10px 20px;
-            font-size: 1rem;
+            padding: 5px 10px;
+            font-size: 0.9rem;
             cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            width: 50px; /* Set a fixed width for smaller buttons */
+            height: 50px; /* Set a fixed height for smaller buttons */
+        }
+        button:hover {
+            background-color: rgba(0, 0, 0, 0.7);
         }
     </style>
 </head>
 <body>
 
 <div class="slides">
-    <section class="active">
-        <img src="image1.jpg" alt="Slide 1">
-    </section>
-    <section>
-        <img src="image2.jpg" alt="Slide 2">
-    </section>
-    <section>
-        <img src="image3.jpg" alt="Slide 3">
-    </section>
-    <section>
-        <img src="image4.jpg" alt="Slide 4">
-    </section>
-    <section>
-        <img src="image5.jpg" alt="Slide 5">
-    </section>
+    <section class="active" style="background-image: url('image1.jpg');"></section>
+    <section style="background-image: url('image2.jpg');"></section>
+    <section style="background-image: url('image3.jpg');"></section>
+    <section style="background-image: url('image4.jpg');"></section>
+    <section style="background-image: url('image5.jpg');"></section>
 </div>
 
 <div class="controls">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
+    <button id="prev">⟨</button>
+    <button id="next">⟩</button>
 </div>
 
 <script>
